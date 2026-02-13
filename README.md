@@ -8,7 +8,7 @@ Este projeto foi desenvolvido para facilitar a configuração e o teste de **Sen
 
 ---
 
-## 🚀 Como conseguir uma chave (key) de **Senhas de App** do Gmail?
+## 🚀 Como conseguir uma chave (key) de **"Senhas de App"** do Gmail?
 
 Para usar o Gmail em seus scripts, você não deve usar sua senha principal, mas sim uma **Senha de App**. 
 
@@ -44,17 +44,29 @@ Use o **Playground no Google Colab** para validar sua chave instantaneamente ant
 
 Se desejar testar localmente você pode clonar o repositório [gmail-key-checker](https://github.com/luizhanauer/gmail-key-checker) e executar o script **checker.py**
 
+Clonar o repositório:
 ```bash
 git clone https://github.com/luizhanauer/gmail-key-checker.git
 ```
-
+Acessar o diretório clonado:
 ```bash
 cd gmail-key-checker
 ```
-
+Executar o script:
 ```bash
 uv run checker.py
 ```
 
----
+Resultado esperado:
+```bash
+unk@desktop:~/gmail-key-checker$ uv run checker.py
+>>> GMAIL KEY CHECKER - LOCAL <<<
+
+E-mail Gmail: luizhanauer@gmail.com
+Senha de App (16 dígitos): xxxx xxxx xxxx xxxx
+Enviar para: luizhanauer@gmail.com
+
+[13/02/2026 12:21:07] 🔄 Conectando ao smtp.gmail.com...
+[13/02/2026 12:21:07] ✅ SUCESSO: E-mail enviado para luizhanauer@gmail.com
+```
 
