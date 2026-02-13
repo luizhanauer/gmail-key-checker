@@ -20,7 +20,7 @@ def run_checker():
     msg['Subject'] = f"Teste Local SMTP - {agora}"
     msg['From'] = seu_email
     msg['To'] = destinatario
-    msg.set_content(f"Enviado do terminal Ubuntu às {agora}")
+    msg.set_content(f"Enviado às {agora}")
 
     try:
         print(f"\n[{agora}] 🔄 Conectando ao smtp.gmail.com...")

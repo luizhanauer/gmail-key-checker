@@ -70,3 +70,6 @@ Enviar para: luizhanauer@gmail.com
 [13/02/2026 12:21:07] ✅ SUCESSO: E-mail enviado para luizhanauer@gmail.com
 ```
 
+No e-mail:
+
+![<email>](/img/email.png)
